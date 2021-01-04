@@ -58,25 +58,25 @@ main{
   margin-left: 10%;
   margin-top: 10%;
   display: flex;
-}
-
-.calculatedMath{
-  justify-content: flex-end;
-}
-
-.showCalculations{
-  width: 240px;
-
+  flex-wrap: wrap;
 }
 
 .results{
   width: 240px;
   display: flex;
-  justify-content: end;
   align-items:center;
-  margin-top: 80px;
+  margin-top: 50px;
   justify-content: flex-end;
 }
+
+
+.showCalculations{
+  display: flex;
+  width: 240px;
+  height: 20px;
+  justify-content: flex-end;
+}
+
 
 .buttonContainer{
   height: 300px;
