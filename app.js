@@ -137,7 +137,7 @@ else if(signOne=="x"){
   let operateResult = inputConvertOne * inputConvertTwo;
   console.log(inputConvertOne," ", signOne," " ,inputConvertTwo,operateResult);
   inputConvertOne = operateResult;
-  currentInput.innerHTML = operateResult.toFixed(2);
+  currentInput.innerHTML = operateResult;
 
 
 }
@@ -146,7 +146,7 @@ else if(signOne=="="){
 
   console.log(inputConvertOne,inputConvertTwo,operateResult);
   inputConvertOne = operateResult;
-  currentInput.innerHTML = operateResult.toFixed(2);
+  currentInput.innerHTML = operateResult;
 
 
 }
